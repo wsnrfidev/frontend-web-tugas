@@ -1,0 +1,14 @@
+/* Tombol Swal biar tetap kelihatan */
+.swal2-confirm,
+.swal2-cancel {
+  color: white !important;
+  font-weight: 500;
+  background-color: #3b82f6 !important; /* Tailwind's blue-500 */
+  border: none !important;
+  padding: 0.6em 1.2em !important;
+  border-radius: 0.5rem !important;
+}
+
+.swal2-cancel {
+  background-color: #6b7280 !important; /* Tailwind's gray-500 */
+}
