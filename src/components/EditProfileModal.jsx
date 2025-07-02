@@ -16,7 +16,7 @@ function EditProfileModal({ onClose }) {
   });
 
   const defaultAvatar =
-    "https://www.svgrepo.com/show/384674/account-avatar-profile-user-13.svg";
+    "https://i.pinimg.com/736x/55/87/5e/55875effea962fe72d4bfc9a82dd9a84.jpg";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
