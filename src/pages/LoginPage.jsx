@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { showSuccess, showError } from "../utils/alert";
+import { showError, showSuccess } from "../utils/alert";
 
 function LoginPage() {
   const [phone, setPhone] = useState("");
@@ -22,7 +22,6 @@ function LoginPage() {
       const data = await res.json();
 
       if (data.success) {
-
         const user = {
           phone: data.user.phone,
           name: data.user.name || "Pengguna",
@@ -49,7 +48,7 @@ function LoginPage() {
         className="bg-white p-8 rounded-2xl shadow-lg w-96 space-y-6"
       >
         <h2 className="text-2xl font-bold text-center text-gray-800">
-          Login Kelompok 4
+          Login Kelompok 666
         </h2>
 
         <div>
